@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlobalTrend - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="https://www.globaltrend.co.in/assets/images/logo.png" alt="GlobalTrend Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-contact">
+        <a href="tel:+91-9999999999">+91-9999999999</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Web Design & Development Agency</h1>
+        <p>We build stunning websites and digital experiences that help your business grow.</p>
+        <a class="btn" href="#">Get Started</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://www.globaltrend.co.in/assets/images/banner-img-2.png" alt="Hero Banner">
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2>About GlobalTrend</h2>
+      <p>GlobalTrend is a leading web design and development agency based in India, offering world-class digital solutions for businesses of all sizes. Our team of experts specializes in designing, developing, and marketing high-performing websites.</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-list">
+        <div class="service-card">
+          <img src="https://img.icons8.com/color/96/000000/source-code.png" alt="Web Development">
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites tailored to your business needs.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/color/96/000000/commercial.png" alt="Digital Marketing">
+          <h3>Digital Marketing</h3>
+          <p>Grow your business with smart online marketing strategies.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/color/96/000000/shopping-cart.png" alt="E-Commerce">
+          <h3>E-Commerce Solutions</h3>
+          <p>Robust e-commerce platforms for seamless online selling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-gallery">
+        <div class="portfolio-item">
+          <img src="https://placehold.co/300x200" alt="Project 1">
+          <p>Project 1</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://placehold.co/300x200" alt="Project 2">
+          <p>Project 2</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://placehold.co/300x200" alt="Project 3">
+          <p>Project 3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required/>
+        <input type="email" placeholder="Your Email" required/>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Email:</strong> info@globaltrend.co.in</p>
+        <p><strong>Phone:</strong> +91-9999999999</p>
+        <p><strong>Address:</strong> 123, Main Street, New Delhi, India</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 GlobalTrend. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
